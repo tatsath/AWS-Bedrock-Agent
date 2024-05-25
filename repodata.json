@@ -1,0 +1,20 @@
+{
+    "modelId": "meta.llama2-70b-chat-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"[INST]You are a a very intelligent bot with exceptional critical thinking[/INST]\\nI went to the market and bought 10 apples. I gave 2 apples to your friend and 2 to the helper. I then went and bought 5 more apples and ate 1. How many apples did I remain with?\\n\\nLet's think step by step.\",\"max_gen_len\":512,\"temperature\":0.5,\"top_p\":0.9}"
+  }
+
+  {
+    "modelId": "amazon.titan-text-express-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"inputText\":\"Meeting transcript: \\nMiguel: Hi Brant, I want to discuss the workstream  for our new product launch \\nBrant: Sure Miguel, is there anything in particular you want to discuss? \\nMiguel: Yes, I want to talk about how users enter into the product. \\nBrant: Ok, in that case let me add in Namita. \\nNamita: Hey everyone \\nBrant: Hi Namita, Miguel wants to discuss how users enter into the product. \\nMiguel: its too complicated and we should remove friction.  for example, why do I need to fill out additional forms?  I also find it difficult to find where to access the product when I first land on the landing page. \\nBrant: I would also add that I think there are too many steps. \\nNamita: Ok, I can work on the landing page to make the product more discoverable but brant can you work on the additonal forms? \\nBrant: Yes but I would need to work with James from another team as he needs to unblock the sign up workflow.  Miguel can you document any other concerns so that I can discuss with James only once? \\nMiguel: Sure. \\nFrom the meeting transcript above, Create a list of action items for each person. \\n \\n\",\"textGenerationConfig\":{\"maxTokenCount\":4096,\"stopSequences\":[\"User:\"],\"temperature\":0,\"topP\":1}}"
+  }
+
+  {
+    "modelId": "mistral.mistral-7b-instruct-v0:2",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"<s>[INST]In Bash, how do I list all text files in the current directory (excluding subdirectories) that have been modified in the last month?[/INST]\",\"max_tokens\":400,\"top_k\":50,\"top_p\":0.7,\"temperature\":0.7}"
+  }
